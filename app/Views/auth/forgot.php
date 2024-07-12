@@ -11,7 +11,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Login | Bootstrap Simple Admin Template</title>
+    <title>Forgot Password | Bootstrap Simple Admin Template</title>
     <link href="<?= base_url(); ?>assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?= base_url(); ?>assets/css/auth.css" rel="stylesheet">
 </head>
@@ -22,30 +22,20 @@
             <div class="card">
                 <div class="card-body text-center">
                     <div class="mb-4">
-                        <img class="brand" src="assets/img/bootstraper-logo.png" alt="bootstraper logo">
+                        <img class="brand" src="<?= base_url(); ?>assets/img/bootstraper-logo.png"
+                            alt="bootstraper logo">
                     </div>
-                    <h6 class="mb-4 text-muted">Login to your account</h6>
+                    <h6 class="mb-4 text-muted">Reset Password</h6>
+                    <p class="text-muted text-start">Enter your email address and your new password will be emailed to
+                        you.</p>
                     <form action="" method="">
                         <div class="mb-3 text-start">
                             <label for="email" class="form-label">Email adress</label>
                             <input type="email" class="form-control" placeholder="Enter Email" required>
                         </div>
-                        <div class="mb-3 text-start">
-                            <label for="password" class="form-label">Password</label>
-                            <input type="password" class="form-control" placeholder="Password" required>
-                        </div>
-                        <div class="mb-3 text-start">
-                            <!-- <div class="form-check">
-                                <input class="form-check-input" name="remember" type="checkbox" value="" id="check1">
-                                <label class="form-check-label" for="check1">
-                                    Remember me on this device
-                                </label>
-                            </div> -->
-                        </div>
-                        <button class="btn btn-primary shadow-2 mb-4">Login</button>
+                        <button class="btn btn-primary shadow-2 mb-4">Send me new password</button>
                     </form>
-                    <p class="mb-2 text-muted">Forgot password? <a href="<?= base_url('reset'); ?>">Reset</a></p>
-
+                    <!-- <p class="mb-0 text-muted">Don’t have an account? <a href="signup.html">Sign up</a></p> -->
                 </div>
             </div>
         </div>

@@ -5,16 +5,16 @@ namespace App\Controllers\Admin;
 use App\Controllers\BaseController;
 use CodeIgniter\HTTP\ResponseInterface;
 
-class Dashboard extends BaseController
+class User extends BaseController
 {
     public function index()
     {
-        // Dashboard Admin
+        // Menampilkan Data Users
         $data=[
-            'title'=>'Dashboard',
-            // 'judul'=>'Dashboard',
+            'title'=>'Users',
+            'judul'=>'Data Users'
         ];
 
-        return view('admin/dashboard',$data);
+        return view('admin/user/list-user',$data);
     }
 }
