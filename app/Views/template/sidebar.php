@@ -4,12 +4,15 @@
     </div>
     <ul class="list-unstyled components text-secondary">
         <li>
-            <a href="dashboard.html"><i class="fas fa-home"></i> Dashboard</a>
+            <a href="<?= base_url('admin/dashboard'); ?>"><i class="fas fa-home"></i> Dashboard</a>
         </li>
         <li>
-            <a href="forms.html"><i class="fas fa-file-alt"></i> Forms</a>
+            <a href="<?= base_url('admin/siswa'); ?>"><i class="fas fa-user-friends"></i>Siswa</a>
         </li>
         <li>
+            <a href="<?= base_url('admin/nilai'); ?>"><i class="fas fa-file-alt"></i> Nilai</a>
+        </li>
+        <!-- <li>
             <a href="tables.html"><i class="fas fa-table"></i> Tables</a>
         </li>
         <li>
@@ -74,7 +77,7 @@
         </li>
         <li>
             <a href="users.html"><i class="fas fa-user-friends"></i>Users</a>
-        </li>
+        </li> -->
         <li>
             <a href="settings.html"><i class="fas fa-cog"></i>Settings</a>
         </li>

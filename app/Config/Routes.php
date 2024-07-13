@@ -12,7 +12,7 @@ $routes->get('/login', 'Auth::index');
 // Admin
 $routes->group('admin', function (RouteCollection $routes) {
    // Admin dashboard
-   // $routes->get('', 'Admin\Dashboard::index');
+   $routes->get('', 'Admin\Dashboard::index');
    $routes->get('dashboard', 'Admin\Dashboard::index');
    
    // Admin Data Siswa
