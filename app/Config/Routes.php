@@ -17,7 +17,9 @@ $routes->group('admin', function (RouteCollection $routes) {
    
    // Admin Data Siswa
    $routes->get('siswa', 'Admin\Siswa::index');
+   $routes->get('siswa/tambah', 'Admin\Siswa::tambahSiswa');
    $routes->get('siswa/edit/(:any)', 'Admin\Siswa::editSiswa/$1');
+   $routes->get('siswa/profile/(:any)', 'Admin\Siswa::profilSiswa/$1');
    $routes->post('siswa/edit', 'Admin\Siswa::updateSiswa');
    $routes->delete('siswa/delete/(:any)', 'Admin\Siswa::deleteSiswa/$1');  
    
@@ -38,7 +40,7 @@ $routes->group('admin', function (RouteCollection $routes) {
 // Users Grup Routes
 $routes->group('user', function (RouteCollection $routes) {
    // Admin dashboard
-   // $routes->get('', 'Admin\Dashboard::index');
+   $routes->get('', 'User\Dashboard::index');
    $routes->get('dashboard', 'User\Dashboard::index');   
    
 });

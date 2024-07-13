@@ -4,8 +4,8 @@
     <div class="container">
         <div class="page-title">
             <h3><?= $judul; ?>
-                <a href="roles.html" class="btn btn-sm btn-outline-primary float-end"><i class="fas fa-user-shield"></i>
-                    Roles</a>
+                <!-- <a href="#" class="btn btn-sm btn-outline-primary float-end"><i class="fas fa-user-shield"></i>
+                    Roles</a> -->
             </h3>
         </div>
         <div class="box box-primary">
@@ -14,9 +14,11 @@
                     <thead>
                         <tr>
                             <th>Name</th>
-                            <th>Email</th>
-                            <th>Role</th>
-                            <th>Type</th>
+                            <th>Personality</th>
+                            <th>Fisik</th>
+                            <th>Tehnik</th>
+                            <th>Taktik</th>
+                            <th>Mental</th>
                             <th>Status</th>
                             <th></th>
                         </tr>
@@ -25,6 +27,8 @@
                         <tr>
                             <td>Philip Chaney</td>
                             <td>philip.chaney@gmail.com</td>
+                            <td>Manager</td>
+                            <td>Manager</td>
                             <td>Manager</td>
                             <td>Admin</td>
                             <td>Active</td>
@@ -36,8 +40,10 @@
                         <tr>
                             <td>Doris Greene</td>
                             <td>ms.greene@outlook.com</td>
-                            <td>Writer</td>
-                            <td>Staff</td>
+                            <td>Manager</td>
+                            <td>Manager</td>
+                            <td>Manager</td>
+                            <td>Admin</td>
                             <td>Active</td>
                             <td class="text-end">
                                 <a href="" class="btn btn-outline-info btn-rounded"><i class="fas fa-pen"></i></a>
@@ -47,8 +53,10 @@
                         <tr>
                             <td>Mason Porter</td>
                             <td>mason_porter@gmail.com</td>
-                            <td>Contributor</td>
-                            <td>Staff</td>
+                            <td>Manager</td>
+                            <td>Manager</td>
+                            <td>Manager</td>
+                            <td>Admin</td>
                             <td>Active</td>
                             <td class="text-end">
                                 <a href="" class="btn btn-outline-info btn-rounded"><i class="fas fa-pen"></i></a>
@@ -58,7 +66,9 @@
                         <tr>
                             <td>Minerva Hooper</td>
                             <td>minerva.hooper@gmail.com</td>
-                            <td>Administrator</td>
+                            <td>Manager</td>
+                            <td>Manager</td>
+                            <td>Manager</td>
                             <td>Admin</td>
                             <td>Disabled</td>
                             <td class="text-end">
@@ -69,7 +79,9 @@
                         <tr>
                             <td>Jessie Williams</td>
                             <td>jessie@gmail.com</td>
-                            <td>Administrator</td>
+                            <td>Manager</td>
+                            <td>Manager</td>
+                            <td>Manager</td>
                             <td>Admin</td>
                             <td>Active</td>
                             <td class="text-end">
@@ -82,6 +94,8 @@
                             <td>pette@gmail.com</td>
                             <td>Editor</td>
                             <td>Staff</td>
+                            <td>Staff</td>
+                            <td>Staff</td>
                             <td>Active</td>
                             <td class="text-end">
                                 <a href="" class="btn btn-outline-info btn-rounded"><i class="fas fa-pen"></i></a>
@@ -91,6 +105,8 @@
                         <tr>
                             <td>Jose Rodriguez</td>
                             <td>jose.rodz@gmail.com</td>
+                            <td>Author</td>
+                            <td>Author</td>
                             <td>Author</td>
                             <td>Staff</td>
                             <td>Active</td>
