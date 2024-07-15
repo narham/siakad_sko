@@ -4,6 +4,7 @@ namespace App\Controllers\Admin;
 
 use App\Controllers\BaseController;
 use App\Models\SiswaModel;
+
 use CodeIgniter\HTTP\ResponseInterface;
 
 class Siswa extends BaseController
@@ -86,14 +87,16 @@ class Siswa extends BaseController
         return view('admin/siswa/edit-siswa',$data);
     }
 
-    public function profilSiswa(){
+    public function profilSiswa($id){
         // Menampilkan Profil Siswa
 
         $data=[
             'title'=>'Siswa',
             'judul'=>'Profil Siswa',
+            'siswa'=>$this->siswaModel->getSiswaByID($id),
             
         ];
+        // dd($data);
 
         return view('admin/siswa/profile-siswa',$data);
 
